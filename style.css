@@ -128,3 +128,38 @@ footer > h2 {
 footer > p {
   margin-bottom: 1rem;
 }
+
+/* Estilos padrão */
+
+/* Estilos para telas pequenas (dispositivos móveis) */
+@media only screen and (max-width: 768px) {
+  #navbar-inner {
+    padding: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  img {
+    height: auto; /* Permitir que a altura da imagem seja ajustada automaticamente */
+    padding: 10px 0;
+  }
+
+  .post {
+    margin-bottom: 1.5rem;
+  }
+
+  #sidebar {
+    flex: 0; /* Remover a barra lateral em dispositivos móveis */
+  }
+  
+  #busca-barra,
+  #marca,
+  #modelo {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+}
